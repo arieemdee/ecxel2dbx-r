@@ -6,7 +6,7 @@ Aplikasi ini membantu Anda mengubah data dari file Excel/CSV menjadi:
 - **File SQLite**
 
 Tidak perlu kemampuan teknis khusus — cukup upload file, cek sebentar, lalu klik Convert.
-- **[Download](https://github.com/arieemdee/api-mdengine/releases/latest/download/Excel2dbf.zip)**
+- **[Download](https://github.com/arieemdee/ecxel2dbx-r/releases/latest/download/Excel2dbf.zip)**
 ---
 
 ## Daftar Isi
