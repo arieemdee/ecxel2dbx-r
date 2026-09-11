@@ -6,7 +6,7 @@ Aplikasi ini membantu Anda mengubah data dari file Excel/CSV menjadi:
 - **File SQLite**
 
 Tidak perlu kemampuan teknis khusus — cukup upload file, cek sebentar, lalu klik Convert.
-- **[Download](https://github.com/arieemdee/ecxel2dbx-r/releases/latest/download/Excel2dbf.zip)**
+
 ---
 
 ## Daftar Isi
@@ -139,6 +139,15 @@ Ada 3 pilihan, pilih salah satu sesuai kebutuhan:
 - **Kosongkan dulu isi tabel**: centang kalau mau data lama di tabel
   itu dihapus dulu sebelum data baru masuk (kalau tidak dicentang,
   data baru akan ditambahkan)
+
+### 🐘 Tabel PostgreSQL
+Caranya sama persis seperti MySQL — Host, Port, User, Password, Nama
+Database, Nama Tabel, Test Koneksi, dan opsi kosongkan tabel.
+
+### 🪟 Tabel SQL Server
+Caranya sama seperti MySQL/PostgreSQL. Kalau koneksi gagal, pesan
+error akan menjelaskan kemungkinan penyebabnya (server tidak
+terjangkau, password salah, dll).
 
 ### 📦 File SQLite
 - Isi **Nama File** (tanpa `.db`), **Nama Tabel**, dan **Folder Tujuan**
